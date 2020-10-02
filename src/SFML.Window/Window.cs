@@ -4,6 +4,9 @@ using System.Security;
 using System.Text;
 using SFML.System;
 
+#pragma warning disable CS0618
+#pragma warning disable IDE0007
+
 namespace SFML.Window
 {
     ////////////////////////////////////////////////////////////
@@ -246,7 +249,7 @@ namespace SFML.Window
         /// Grab or release the mouse cursor
         /// </summary>
         /// <param name="grabbed">True to grab, false to release</param>
-        /// 
+        ///
         /// <remarks>
         /// If set, grabs the mouse cursor inside this window's client
         /// area so it may no longer be moved outside its bounds.
